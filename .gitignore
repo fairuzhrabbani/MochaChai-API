@@ -1,0 +1,24 @@
+# Node modules
+node_modules/
+
+# Environment files
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Reports / coverage
+mochawesome-report/
+coverage/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional: lock files (kalau tidak mau commit)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
