@@ -6,11 +6,12 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 describe('Login API', function () {
+  const baseUrl = process.env.BASE_URL;
   let loginApi;
-  let positiveRes, negativeRes;
+  let positiveRes;
 
   before(async function () {
-    loginApi = new LoginAPI(process.env.BASE_URL);
+    loginApi = new LoginAPI(baseUrl);
   });
 
   describe('🟢 Positive Tests - Valid Credentials', function () {

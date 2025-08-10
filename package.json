@@ -4,7 +4,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "mocha \"test/**/*.test.js\" --timeout 10000 --reporter mochawesome"
+    "test": "mocha \"test/**/*.test.js\" --timeout 10000 --reporter mochawesome",
+    "test:login": "mocha test/login.test.js --timeout 10000 --reporter mochawesome",
+    "test:userMe": "mocha test/Users/userMe.test.js --timeout 10000 --reporter mochawesome"
   },
   "author": "Fairuz Hanif Rabbani",
   "license": "ISC",
